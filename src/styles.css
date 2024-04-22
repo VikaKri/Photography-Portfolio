@@ -14,14 +14,26 @@ a {
   color: var(--main-color);
 }
 
-.mediaIcon {
-  font-size: 30px;
-  padding: 0 10px;
-  text-decoration: none;
-}
-
 a:hover {
   color: rgb(202, 202, 202);
+}
+
+li {
+  text-align: center;
+}
+
+.header {
+  background-color: var(--background-color);
+  padding: 15px 0;
+}
+
+.header a,
+.buttonIcon {
+  color: var(--main-color);
+}
+
+.header .navbar-brand {
+  font-weight: 500;
 }
 
 .mainInformation {
@@ -29,6 +41,17 @@ a:hover {
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
+}
+
+.mediaIcon {
+  font-size: 30px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.menuIcon {
+  font-size: 27px;
+  color: rgba(255, 255, 255, 0.776);
 }
 
 .sectionHome h1,
@@ -75,7 +98,7 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 110vh;
   color: var(--main-color);
   text-align: center;
 }
@@ -105,5 +128,3 @@ a:hover {
 .sectionFooter .webInfo {
   line-height: 40px;
 }
-
-
