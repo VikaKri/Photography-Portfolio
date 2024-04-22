@@ -34,7 +34,7 @@ li {
   color: var(--main-color);
 }
 
-.header a:hover {
+.header li a:hover {
   color: var(--hover-color);
 }
 
@@ -140,7 +140,7 @@ li {
   font-family: var(--second-font-family);
   border-radius: 50px;
   text-transform: uppercase;
-  padding: 18px 30px 18px 30px;
+  padding: 18px, 30px, 18px, 30px;
 }
 
 .sectionHome {
@@ -157,7 +157,7 @@ li {
   margin-top: 100px;
 }
 
-.imagesList {
+.sectionPhotography .imagesList {
   margin-bottom: 100px;
 }
 
@@ -165,7 +165,8 @@ li {
   background-color: rgba(40, 35, 35, 1);
   color: var(--main-color);
   font-family: var(--main-font-family);
-  padding: 30px 0 20px;
+
+  padding: 40px 0;
   text-align: center;
 }
 
