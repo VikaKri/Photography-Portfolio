@@ -79,7 +79,7 @@ li {
 }
 
 .sectionAbout h1 {
-  font-size: 64px;
+  font-size: 75px;
   color: var(--main-color);
   text-transform: uppercase;
 }
@@ -116,7 +116,31 @@ li {
   margin-bottom: 66px;
 }
 
-.sectionGallery {
+.sectionContact {
+  font-family: var(--main-font-family);
+  margin-bottom: 150px;
+}
+
+.sectionContact h1 {
+  margin: 32px 0px 100px;
+}
+
+.sectionContact h2 {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+
+.sectionContact .contactInfo {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.sectionGallery,
+.sectionContact h1,
+.sectionContact .contactInfo {
   color: var(--main-color);
 }
 
@@ -143,7 +167,8 @@ li {
 }
 
 .sectionHome h2,
-.sectionGallery h2 {
+.sectionGallery h2,
+.sectionContact h1 {
   font-size: 84px;
   text-transform: uppercase;
   font-weight: 700;
