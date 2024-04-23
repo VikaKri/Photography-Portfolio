@@ -24,6 +24,16 @@ li {
   text-align: center;
 }
 
+.btnBranding {
+  color: var(--button-color);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--second-font-family);
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 18px 30px 18px 30px;
+}
+
 .header {
   background-color: var(--background-color);
   padding: 15px 0;
@@ -44,6 +54,10 @@ li {
 
 .header .navbar-brand {
   font-weight: 500;
+}
+
+.imagesList {
+  margin-bottom: 100px;
 }
 
 .mainInformation {
@@ -102,12 +116,22 @@ li {
   margin-bottom: 66px;
 }
 
+.sectionGallery {
+  color: var(--main-color);
+}
+
+.sectionGallery h2 {
+  margin: 32px 0px 166px;
+  text-align: center;
+}
+
 .sectionHome h1,
 .sectionHome h2,
 .sectionHome p,
 .sectionAbout h1,
 .sectionAbout h2,
-.sectionAbout p {
+.sectionAbout p,
+.sectionGallery h2 {
   font-family: var(--main-font-family);
 }
 
@@ -118,29 +142,18 @@ li {
   text-transform: uppercase;
 }
 
-.sectionHome h2 {
-  font-size: 72px;
+.sectionHome h2,
+.sectionGallery h2 {
+  font-size: 84px;
   text-transform: uppercase;
-  font-weight: 400;
-  margin-bottom: 14px;
+  font-weight: 700;
 }
 
 .sectionHome p {
   font-size: 18px;
   font-weight: 300;
-  margin: auto;
-  margin-bottom: 48px;
+  margin: 14px auto 48px;
   width: 450px;
-}
-
-.btnBranding {
-  color: var(--button-color);
-  font-size: 14px;
-  font-weight: 600;
-  font-family: var(--second-font-family);
-  border-radius: 50px;
-  text-transform: uppercase;
-  padding: 18px 30px 18px 30px;
 }
 
 .sectionHome {
@@ -155,10 +168,6 @@ li {
 
 .sectionPhotography {
   margin-top: 100px;
-}
-
-.imagesList {
-  margin-bottom: 100px;
 }
 
 .sectionFooter {
