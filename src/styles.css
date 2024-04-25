@@ -211,3 +211,50 @@ li {
 .sectionFooter .webInfo {
   line-height: 30px;
 }
+
+@media (max-width: 678px) {
+  .sectionHome h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 475px) {
+  .sectionHome h2 {
+    font-size: 40px;
+  }
+
+  .sectionHome p {
+    width: 300px;
+  }
+
+  .sectionFooter .webInfo {
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mainInformation {
+    position: relative;
+    top: 30vh;
+    left: 30vw;
+    transform: translate(-31%, -24%);
+  }
+}
+
+@media (max-width: 320px) {
+  .sectionHome h2 {
+    font-size: 30px;
+  }
+
+  .sectionHome p {
+    width: 250px;
+  }
+
+  .mediaIcon {
+    font-size: 16px;
+  }
+
+  .sectionFooter .webInfo {
+    font-size: 14px;
+  }
+}
