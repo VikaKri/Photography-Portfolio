@@ -213,22 +213,12 @@ li {
 }
 
 @media (max-width: 678px) {
-  .sectionHome h2 {
+  .sectionContact h1 {
     font-size: 60px;
   }
-}
 
-@media (max-width: 475px) {
   .sectionHome h2 {
-    font-size: 40px;
-  }
-
-  .sectionHome p {
-    width: 300px;
-  }
-
-  .sectionFooter .webInfo {
-    line-height: 23px;
+    font-size: 60px;
   }
 }
 
@@ -239,22 +229,53 @@ li {
     left: 30vw;
     transform: translate(-31%, -24%);
   }
+
+  .sectionGallery h2 {
+    font-size: 64px;
+    margin: 32px 0px 60px;
+  }
+}
+
+@media (max-width: 475px) {
+  .sectionContact h1 {
+    font-size: 40px;
+  }
+
+  .sectionFooter .webInfo {
+    line-height: 23px;
+  }
+
+  .sectionHome h2 {
+    font-size: 40px;
+  }
+
+  .sectionHome p {
+    width: 300px;
+  }
 }
 
 @media (max-width: 320px) {
+  .mediaIcon {
+    font-size: 16px;
+  }
+
+  .sectionContact h1 {
+    font-size: 30px;
+  }
+
+  .sectionFooter .webInfo {
+    font-size: 14px;
+  }
+
+  .sectionGallery h2 {
+    font-size: 50px;
+  }
+
   .sectionHome h2 {
     font-size: 30px;
   }
 
   .sectionHome p {
     width: 250px;
-  }
-
-  .mediaIcon {
-    font-size: 16px;
-  }
-
-  .sectionFooter .webInfo {
-    font-size: 14px;
   }
 }
